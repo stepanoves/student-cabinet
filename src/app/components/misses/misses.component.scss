@@ -1,0 +1,10 @@
+.container {
+  display: flex;
+  flex-direction: column;
+
+  &__filters {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 15px 10px 0;
+  }
+}

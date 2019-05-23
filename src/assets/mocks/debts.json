@@ -1,0 +1,47 @@
+[
+  {
+    "subject": {
+      "id": 1,
+      "name": "subject name"
+    },
+    "semester": "Весенний",
+    "examType": "Экзамен",
+    "mark": 0,
+    "teacher": {
+      "id": 1,
+      "name": "teacher",
+      "rank": "teacher rank"
+    },
+    "date": "19.10.2019"
+  },
+  {
+    "subject": {
+      "id": 1,
+      "name": "subject name"
+    },
+    "semester": "Весенний",
+    "examType": "Экзамен",
+    "mark": 0,
+    "teacher": {
+      "id": 1,
+      "name": "teacher",
+      "rank": "teacher rank"
+    },
+    "date": "19.10.2019"
+  },
+  {
+    "subject": {
+      "id": 1,
+      "name": "subject name"
+    },
+    "semester": "Весенний",
+    "examType": "Экзамен",
+    "mark": 0,
+    "teacher": {
+      "id": 1,
+      "name": "teacher",
+      "rank": "teacher rank"
+    },
+    "date": "19.10.2019"
+  }
+]

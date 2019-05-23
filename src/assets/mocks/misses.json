@@ -1,0 +1,38 @@
+[
+  {
+    "subject": {
+      "id": 1,
+      "name": "subject name"
+    },
+    "teacher": {
+      "id": 1,
+      "name": "teacher",
+      "rank": "teacher rank"
+    },
+    "type": "type",
+    "date": "19.10.2019",
+    "hours": 10,
+    "hourPrice": 123,
+    "commonPrice": 123123,
+    "isPaid": false
+  },
+  {
+    "subject": {
+      "id": 1,
+      "name": "subject name"
+    },
+    "teacher": {
+      "id": 1,
+      "name": "teacher",
+      "rank": "teacher rank"
+    },
+    "type": "type",
+    "date": "19.10.2019",
+    "hours": 10,
+    "hourPrice": 123,
+    "commonPrice": 123123,
+    "isPaid": false,
+    "isWorked": true,
+    "workedDate": "20.10.2019"
+  }
+]

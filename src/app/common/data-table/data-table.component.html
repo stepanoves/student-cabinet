@@ -1,0 +1,24 @@
+<app-preloading-spinner [dataStream]="stream$"></app-preloading-spinner>
+
+<table
+  class="mat-elevation-z8 data-table"
+  mat-table
+  [dataSource]="dataSource"
+  *ngIf="(stream$ | async)?.length">
+  <ng-container *ngFor="let col of cols" [matColumnDef]="col.key">
+
+    <ng-container>
+      <th class="data-table__content" mat-header-cell *matHeaderCellDef>{{ col.header }}</th>
+      <td class="data-table__content" mat-cell *matCellDef="let row">{{ col.cell(row) }}</td>
+    </ng-container>
+
+  </ng-container>
+
+  <tr mat-header-row *matHeaderRowDef="getHeaderRowDef()"></tr>
+  <tr mat-row *matRowDef="let row; columns: getHeaderRowDef()"></tr>
+</table>
+<mat-paginator
+  [length]="(stream$ | async)?.length"
+  [pageSizeOptions]="[5, 10, 20]"
+  showFirstLastButtons
+></mat-paginator>

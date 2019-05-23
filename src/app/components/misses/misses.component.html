@@ -1,0 +1,14 @@
+<div class="container">
+  <div class="container__filters">
+    <mat-radio-group [formControl]="complete">
+      <mat-radio-button [value]="false">Не отработанные</mat-radio-button>
+      <mat-radio-button [value]="true">Отработанные</mat-radio-button>
+    </mat-radio-group>
+  </div>
+  <app-data-table
+    class="full-width-table"
+    [stream$]="misses$"
+    [cols]="columns"
+  ></app-data-table>
+</div>
+
